@@ -13,7 +13,7 @@ public:
         long long totalH = 0;
         int n = piles.size();
         for (int i = 0; i<n; i++){
-            totalH += (long long) ceil((double)piles[i]/(double)mid);
+            totalH += ceil((double)piles[i]/(double)mid);
         }
         return totalH;
     }
